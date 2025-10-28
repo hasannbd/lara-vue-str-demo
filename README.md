@@ -12,6 +12,10 @@ git clone https://github.com/hasannbd/lara-vue-str-demo.git
 cd lara-vue-str-demo
 npm install   #Install Node.js dependencies
 npm run build   #Build the Vue frontend assets
+php artisan migrate --seed #Default Role, User and Permission will be created
 composer run dev   #Start the Laravel development server
 ```
 - Visit http://localhost:8000
+- Login with:
+  Username: admin@example.com
+  Password: Welcome
